@@ -34,7 +34,7 @@ git clone https://github.com/yourusername/HorizenSavings.git
 cd HorizenSavings
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 Backend:
 ```cd backend
 npm install
@@ -43,15 +43,14 @@ Frontend:
 ```cd frontend
 npm install
 ```
-
-3. Environment Variables
+### 3. Environment Variables
 Create a .env file inside the backend folder with:
 ```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 STELLAR_SECRET_KEY=your_stellar_secret_key
 ```
-4. Run the project
+### 4. Run the project
 Backend:
 ```
 npm start
